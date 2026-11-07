@@ -12,7 +12,7 @@ plugins {
     id("kotlin-parcelize")
 }
 
-val managerVersionCode: Int by rootProject.extra
+val managerVersionCode: Int = 33192
 val managerVersionName: String by rootProject.extra
 
 apksign {
